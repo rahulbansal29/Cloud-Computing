@@ -160,24 +160,35 @@ Amazon Elastic Compute Cloud (Amazon EC2) offers the broadest and deepest comput
 
 1. Run cloud-native and enterprise applications
 
-Amazon EC2 delivers secure, reliable, high-performance, and cost-effective compute infrastructure to meet demanding business needs.
+  Amazon EC2 delivers secure, reliable, high-performance, and cost-effective compute infrastructure to meet demanding business needs.
 
 
 2. Scale for HPC applications
    
-Access the on-demand infrastructure and capacity you need to run HPC applications faster and cost-effectively.
+  Access the on-demand infrastructure and capacity you need to run HPC applications faster and cost-effectively.
 
 
 
 3. Develop for Apple platforms
  
-Build, test, and sign on-demand macOS workloads. Access environments in minutes, dynamically scale capacity as needed, and benefit from AWS’s pay-as-you-go pricing.
+  Build, test, and sign on-demand macOS workloads. Access environments in minutes, dynamically scale capacity as needed, and benefit from AWS’s pay-as-you-go pricing.
 
 
 
 4. Train and deploy ML applications
 
-Amazon EC2 delivers the broadest choice of compute, networking (up to 400 Gbps), and storage services purpose-built to optimize price performance for ML projects.
+  Amazon EC2 delivers the broadest choice of compute, networking (up to 400 Gbps), and storage services purpose-built to optimize price performance for ML projects.
+
+  ## ELB(Elastic Load Balancer) 
+  
+  Elastic Load Balancing automatically distributes your incoming traffic across multiple targets, such as EC2 instances, containers, and IP addresses, in one or more Availability Zones. It monitors the health 
+  of its registered targets, and routes traffic only to the healthy targets. Elastic Load Balancing scales your load balancer capacity automatically in response to changes in incoming traffic.
+
+  ## Types Of Load Balancer
+
+  1. Classic Load Balancer- layer 4&7
+  2. Application Load Balancer- layer 7
+  3. Network Load Balancer- layer 4
 
 
 
