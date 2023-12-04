@@ -365,30 +365,27 @@ AWS services such as AWS Fargate, Amazon ECS, Amazon EKS, and AWS Batch make it 
 
 Following are the significant differences between Docker and virtual machines.
 
-OS Support and ArchitectureThe main difference between Docker and VMs lies in their architecture, demonstrated below.
+## OS Support and ArchitectureThe main difference between Docker and VMs lies in their architecture, demonstrated below.
 
 ![image](https://github.com/rahulbansal29/Cloud-Computing/assets/145260475/13a34116-5340-4c12-ba98-bd7d02bf38b7)
 
 Docker vs. Virtual Machines VMs have the host OS and guest OS inside each VM. A guest OS can be any OS, like Linux or Windows, irrespective of the host OS. In contrast, Docker containers host on a single physical server with a host OS, which shares among them. Sharing the host OS between containers makes them light and increases the boot time. Docker containers are considered suitable to run multiple applications over a single OS kernel; whereas, virtual machines are needed if the applications or services required to run on different OS. 
 
-Security
+## Security
 
 The second difference between VMs and Docker is that Virtual Machines are stand-alone with their kernel and security features. Therefore, applications needing more privileges and security run on virtual machines. On the flip side, providing root access to applications and running them with administrative premises is not recommended in the case of Docker containers because containers share the host kernel. The container technology has access to the kernel subsystems; as a result, a single infected application is capable of hacking the entire host system.
 
-Portability
+## Portability
 
 Another relevant Docker vs Virtual Machine difference is about portability: VMs are isolated from their OS, and so they are not ported across multiple platforms without incurring compatibility issues. At the development level, if an application is to be tested on different platforms, then Docker containers must be considered. Docker container packages are self-contained and can run applications in any environment, and since they don’t need a guest OS, they can be easily ported across different platforms. Docker containers can be easily deployed in servers since containers being lightweight can be started and stopped in very less time compared to virtual machines.
 
-PerformanceThe last main Docker vs VM difference refers to performance: Virtual Machines are more resource-intensive than Docker containers as the virtual machines need to load the entire OS to start. The lightweight architecture of Docker containers is less resource-intensive than virtual machines. In the case of a virtual machine, resources like CPU, memory, and I/O may not be allocated permanently to containers — unlike in the case of a Docker container, where the resource usage works with the load or traffic. Scaling up and duplicating a Docker container is simple and easy as compared to a virtual machine because there is no need to install an operating system in them.Apart from the major differences between Docker and VMs, some other ones are summarized below: 
- 	Docker                                                                                                     	Virtual Machines (VMs)
-Boot-Time	Boots in a few seconds.	                                                                            It takes a few minutes for VMs to boot.
-Runs on	Dockers make use of the execution engine.                                                            	VMs make use of the hypervisor.
-Memory Efficiency	No space is needed to virtualize, hence less memory.                                       	Requires entire OS to be loaded before starting the surface, so less efficient. 
-Isolation	Prone to adversities as no provisions for isolation systems                                        	Interference possibility is minimum because of the efficient isolation mechanism.
-Deployment	Deploying is easy as only a single image, containerized can be used across all platforms.         	Deployment is comparatively lengthy as separate instances are responsible for execution.
-Usage	Docker has a complex usage mechanism consisting of both third party and docker managed tools.           	Tools are easy to use and simpler to work with. 
+## Performance
 
+The last main Docker vs VM difference refers to performance: Virtual Machines are more resource-intensive than Docker containers as the virtual machines need to load the entire OS to start. The lightweight architecture of Docker containers is less resource-intensive than virtual machines. In the case of a virtual machine, resources like CPU, memory, and I/O may not be allocated permanently to containers — unlike in the case of a Docker container, where the resource usage works with the load or traffic. Scaling up and duplicating a Docker container is simple and easy as compared to a virtual machine because there is no need to install an operating system in them.
 
+## Difference Between Docker And VM
+
+![image](https://github.com/rahulbansal29/Cloud-Computing/assets/145260475/997aa1f3-cd43-4d4d-8a90-3b6a736d0f7f)
 
 
 
