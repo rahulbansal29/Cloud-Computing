@@ -196,6 +196,211 @@ AWS Auto Scaling monitors your applications and automatically adjusts capacity t
 
 ![image](https://github.com/rahulbansal29/Cloud-Computing/assets/145260475/4b120d72-057c-43c5-875d-14a74f3f576d)
 
+ 
+# Route 53
+
+Amazon Route 53 is a highly available and scalable Domain Name System (DNS) web service. You can use Route 53 to perform three main functions in any combination: domain registration, DNS routing, and health checking.
+
+If you choose to use Route 53 for all three functions, be sure to follow the order below:
+
+1. Register domain names
+Your website needs a name, such as example.com. Route 53 lets you register a name for your website or web application, known as a domain name.
+
+For an overview, see How domain registration works.
+
+For a procedure, see Registering a new domain.
+
+For a tutorial that takes you through registering a domain and creating a simple website in an Amazon S3 bucket, see Getting started with Amazon Route 53.
+
+2. Route internet traffic to the resources for your domain
+When a user opens a web browser and enters your domain name (example.com) or subdomain name (acme.example.com) in the address bar, Route 53 helps connect the browser with your website or web application.
+
+For an overview, see How internet traffic is routed to your website or web application.
+
+For procedures, see Configuring Amazon Route 53 as your DNS service.
+
+For a procedure on how to route email to Amazon WorkMail, see Routing traffic to Amazon WorkMail.
+
+3. Check the health of your resources
+Route 53 sends automated requests over the internet to a resource, such as a web server, to verify that it's reachable, available, and functional. You also can choose to receive notifications when a resource becomes unavailable and choose to route internet traffic away from unhealthy resources.
+
+For an overview, see How Amazon Route 53 checks the health of your resources.
+
+For procedures, see Creating Amazon Route 53 health checks and configuring DNS failover.
+
+![image](https://github.com/rahulbansal29/Cloud-Computing/assets/145260475/d59ac9c6-b4ec-43c2-b27f-820fb994300a)
+
+# Cloud Formation
+
+![image](https://github.com/rahulbansal29/Cloud-Computing/assets/145260475/0447387f-82c4-4379-950d-47d1cb45b7c8)
+
+
+AWS CloudFormation is an AWS service that uses template files to automate the setup of AWS resources.
+
+It can also be described as infrastructure automation or Infrastructure-as-Code (IaC) tool and a cloud automation solution because it can automate the setup and deployment of various Infrastructure-as-a-Service (IaaS) offerings on the AWS CloudFormation supports virtually every service that runs in AWS. (A full list of supported services is available here.)
+
+You can use CloudFormation to automate the configuration of workloads that run on the most popular AWS services, like the EC2 compute service, the S3 storage service, and the IAM service for configuring access control.
+
+You can also apply CloudFormation templates to AWS services that cater to niche use cases, like Ground Station, the AWS satellite management solution.
+
+In general, if a service runs on AWS, it is a safe bet that you can use CloudFormation to automate its configuration and deployment.
+
+It is worth noting that CloudFormation is not the only way to configure and deploy services on AWS. You can handle these processes manually using the AWS command-line interface, API, or Web console. Manual provisioning is the approach that teams typically take when they are just getting started with AWS and learning how to deploy services. However, as they scale their environments up in size, many teams quickly realize that they need a solution like CloudFormation to make the deployment process faster and more consistent.
+
+# Benefits Of Cloud formation
+
+CloudFormation and other AWS-compatible IaC tools offer a range of benefits that make cloud service deployment and management faster and more efficient.
+
+Deployment speed
+When you create CloudFormation templates to manage how AWS resources are configured and deployed, you can deploy multiple instances of the same resources almost instantaneously using just one template. This approach leads to much faster deployment than you could achieve if you had to manually set up each deployment by running commands on the CLI or pressing buttons in the AWS console.
+
+The caveat, of course, is that you have to spend time setting up your CloudFormation templates. However, if you will be repeating the same type of deployment several times, it will be much faster overall to create a CloudFormation template that you can reuse for each deployment than to configure each one manually.
+
+Scaling up
+Even if you do not initially expect to deploy multiple instances of the same AWS resources, CloudFormation templates are useful because they ensure that you can scale your environment up quickly when the time comes. By keeping CloudFormation templates on hand, you will know that you can add more virtual machine instances or storage space, for example, at a moment's notice if your applications experience increased traffic and you need to scale your environment up.
+
+Alternatively, when demand decreases and you want to scale down to save money, you can take some of your deployments offline while still retaining the ability to redeploy them quickly using CloudFormation when demand increases.
+
+Service integration
+A single CloudFormation template can manage the deployment of individual services or resources and multiple resources. This management ability means you can use CloudFormation to integrate different AWS cloud services. For example, you could write a template that sets up an EC2 virtual machine within an AWS Virtual Private Cloud (VPC) or deploys an S3 storage bucket and configures access control for it using the IAM service.
+
+Managing multiple services through a single template makes it easy to integrate AWS services as you build out a complete cloud environment.
+
+Consistency
+When you use CloudFormation templates to define and deploy AWS resources, you can apply precisely the same configuration repeatedly. In this way, CloudFormation ensures that your applications and services will be consistent and identical, no matter how many instances you create.
+
+The alternative approach, which is to set up each resource by hand, introduces the risk that the engineer who performs the work might apply different settings to different instances, resulting in inconsistency. In turn, your environment would be more challenging to manage because some resources would look different than others, even if they perform the same primary job. You might have different types of EC2 instances hosting replicas of the same application, for instance, or different IAM access controls for the same service. This inconsistency would make it challenging to manage resources uniformly.
+
+Security
+Along similar lines, although CloudFormation is not a security tool per se, it can improve the overall security of your AWS environment by reducing the risk of oversights or human errors that could turn into breaches. As long as you design your CloudFormation templates to be secure, you do not need to worry that an engineer who deploys resources will forget to turn on important access control, for example, or leave data exposed to unrestricted, public access.
+
+Easy updates
+In addition to deploying new resources, you can apply changes to existing resources with CloudFormation templates. This ability simplifies the process of, for example, adding more storage to a fleet of ec2 instances or changing access control rules.
+
+Auditing and change management
+When you use CloudFormation to manage your infrastructure, you can track changes based on which templates you have applied and how they change over time. Change tracking in CloudFormation means that you will be able to determine how your AWS services and resources have changed over time without looking through logs to reconstruct the timeline of updates.
+
+# Cloud Frnont
+
+![image](https://github.com/rahulbansal29/Cloud-Computing/assets/145260475/6ae44b53-5e80-4cac-904e-4695b213496f)
+
+
+Amazon CloudFront is a fast content delivery network (CDN) service that securely delivers data, videos, applications, and APIs to customers globally with low latency, high transfer speeds, all within a developer-friendly environment.
+
+Amazon CloudFront is a web service that speeds up distribution of your static and dynamic web content, such as .html, .css, .js, and image files, to your users. CloudFront delivers your content through a worldwide network of data centers called edge locations.
+
+When a user requests content that you’re serving with CloudFront, the request is routed to the edge location that provides the lowest latency (time delay), so that content is delivered with the best possible performance.
+
+If the content is already in the edge location with the lowest latency, CloudFront delivers it immediately.
+If the content is not in that edge location, CloudFront retrieves it from an origin that you’ve defined — such as an Amazon S3 bucket, a MediaPackage channel, or an HTTP server (for example, a web server) that you have identified as the source for the definitive version of your content.
+As an example, suppose that you’re serving an image from a traditional web server, not from CloudFront. For example, you might serve an image, sunsetphoto.png, using the URL http://example.com/sunsetphoto.png.
+
+Your users can easily navigate to this URL and see the image. But they probably don’t know that their request is routed from one network to another — through the complex collection of interconnected networks that comprise the internet — until the image is found.
+
+CloudFront speeds up the distribution of your content by routing each user request through the AWS backbone network to the edge location that can best serve your content. Typically, this is a CloudFront edge server that provides the fastest delivery to the viewer.
+
+Using the AWS network dramatically reduces the number of networks that your users’ requests must pass through, which improves performance. Users get lower latency — the time it takes to load the first byte of the file — and higher data transfer rates.
+
+You also get increased reliability and availability because copies of your files (also known as objects) are now held (or cached) in multiple edge locations around the world.
+
+How Does Amazon CloudFront Work?
+CloudFront works seamlessly with any AWS origin, such as Amazon S3, Amazon EC2, Elastic Load Balancing, or with any custom HTTP origin. You can customize your content delivery through CloudFront using the secure and programmable edge computing features CloudFront Functions and AWS Lambda@Edge.
+
+Amazon CloudFront is a fast content delivery network (CDN) service that securely delivers data, videos, applications, and APIs to customers globally with low latency, high transfer speeds, all within a developer-friendly environment.
+
+Amazon CloudFront is a web service that speeds up distribution of your static and dynamic web content, such as .html, .css, .js, and image files, to your users. CloudFront delivers your content through a worldwide network of data centers called edge locations.
+
+When a user requests content that you’re serving with CloudFront, the request is routed to the edge location that provides the lowest latency (time delay), so that content is delivered with the best possible performance.
+
+If the content is already in the edge location with the lowest latency, CloudFront delivers it immediately.
+If the content is not in that edge location, CloudFront retrieves it from an origin that you’ve defined — such as an Amazon S3 bucket, a MediaPackage channel, or an HTTP server (for example, a web server) that you have identified as the source for the definitive version of your content.
+As an example, suppose that you’re serving an image from a traditional web server, not from CloudFront. For example, you might serve an image, sunsetphoto.png, using the URL http://example.com/sunsetphoto.png.
+
+Your users can easily navigate to this URL and see the image. But they probably don’t know that their request is routed from one network to another — through the complex collection of interconnected networks that comprise the internet — until the image is found.
+
+CloudFront speeds up the distribution of your content by routing each user request through the AWS backbone network to the edge location that can best serve your content. Typically, this is a CloudFront edge server that provides the fastest delivery to the viewer.
+
+Using the AWS network dramatically reduces the number of networks that your users’ requests must pass through, which improves performance. Users get lower latency — the time it takes to load the first byte of the file — and higher data transfer rates.
+
+You also get increased reliability and availability because copies of your files (also known as objects) are now held (or cached) in multiple edge locations around the world.
+
+How Does Amazon CloudFront Work?
+CloudFront works seamlessly with any AWS origin, such as Amazon S3, Amazon EC2, Elastic Load Balancing, or with any custom HTTP origin. You can customize your content delivery through CloudFront using the secure and programmable edge computing features CloudFront Functions and AWS Lambda@Edge.
+
+# Disaster Recovery
+
+Disaster recovery strategies available to you within AWS can be broadly categorized into four approaches, ranging from the low cost and low complexity of making backups to more complex strategies using multiple active Regions. Active/passive strategies use an active site (such as an AWS Region) to host the workload and serve traffic. The passive site (such as a different AWS Region) is used for recovery. The passive site does not actively serve traffic until a failover event is triggered.
+
+It is critical to regularly assess and test your disaster recovery strategy so that you have confidence in invoking it, should it become necessary. Use AWS Resilience Hub to continuously validate and track the resilience of your AWS workloads, including whether you are likely to meet your RTO and RPO targets.
+
+
+      Graph showing disaster recovery strategies and highlights of each strategy.
+    
+![image](https://github.com/rahulbansal29/Cloud-Computing/assets/145260475/bb83a069-0b27-4b12-bbe9-756c12a8fb33)
+
+
+For a disaster event based on disruption or loss of one physical data center for a well-architected, highly available workload, you may only require a backup and restore approach to disaster recovery. If your definition of a disaster goes beyond the disruption or loss of a physical data center to that of a Region or if you are subject to regulatory requirements that require it, then you should consider Pilot Light, Warm Standby, or Multi-Site Active/Active.
+
+When choosing your strategy, and the AWS resources to implement it, keep in mind that within AWS, we commonly divide services into the data plane and the control plane. The data plane is responsible for delivering real-time service while control planes are used to configure the environment. For maximum resiliency, you should use only data plane operations as part of your failover operation. This is because the data planes typically have higher availability design goals than the control planes.
+
+Backup and restore
+
+Backup and restore is a suitable approach for mitigating against data loss or corruption. This approach can also be used to mitigate against a regional disaster by replicating data to other AWS Regions, or to mitigate lack of redundancy for workloads deployed to a single Availability Zone. In addition to data, you must redeploy the infrastructure, configuration, and application code in the recovery Region. To enable infrastructure to be redeployed quickly without errors, you should always deploy using infrastructure as code (IaC) using services such as AWS CloudFormation or the AWS Cloud Development Kit (AWS CDK). Without IaC, it may be complex to restore workloads in the recovery Region, which will lead to increased recovery times and possibly exceed your RTO. In addition to user data, be sure to also back up code and configuration, including Amazon Machine Images (AMIs) you use to create Amazon EC2 instances. You can use AWS CodePipeline to automate redeployment of application code and configuration.
+
+# Docker Containers
+
+Docker is a software platform that allows you to build, test, and deploy applications quickly. Docker packages software into standardized units called containers that have everything the software needs to run including libraries, system tools, code, and runtime. Using Docker, you can quickly deploy and scale applications into any environment and know your code will run.
+Running Docker on AWS provides developers and admins a highly reliable, low-cost way to build, ship, and run distributed applications at any scale.
+
+![image](https://github.com/rahulbansal29/Cloud-Computing/assets/145260475/8fbbe94d-c647-40a5-a22a-d002c66cd06f)
+
+
+## How Docker Container Work
+
+Docker works by providing a standard way to run your code. Docker is an operating system for containers. Similar to how a virtual machine virtualizes (removes the need to directly manage) server hardware, containers virtualize the operating system of a server. Docker is installed on each server and provides simple commands you can use to build, start, or stop containers.
+
+AWS services such as AWS Fargate, Amazon ECS, Amazon EKS, and AWS Batch make it easy to run and manage Docker containers at scale.
+
+## Docker VS Virtual Machine
+
+Following are the significant differences between Docker and virtual machines.
+
+OS Support and ArchitectureThe main difference between Docker and VMs lies in their architecture, demonstrated below.
+
+![image](https://github.com/rahulbansal29/Cloud-Computing/assets/145260475/13a34116-5340-4c12-ba98-bd7d02bf38b7)
+
+Docker vs. Virtual Machines VMs have the host OS and guest OS inside each VM. A guest OS can be any OS, like Linux or Windows, irrespective of the host OS. In contrast, Docker containers host on a single physical server with a host OS, which shares among them. Sharing the host OS between containers makes them light and increases the boot time. Docker containers are considered suitable to run multiple applications over a single OS kernel; whereas, virtual machines are needed if the applications or services required to run on different OS. 
+
+Security
+
+The second difference between VMs and Docker is that Virtual Machines are stand-alone with their kernel and security features. Therefore, applications needing more privileges and security run on virtual machines. On the flip side, providing root access to applications and running them with administrative premises is not recommended in the case of Docker containers because containers share the host kernel. The container technology has access to the kernel subsystems; as a result, a single infected application is capable of hacking the entire host system.
+
+Portability
+
+Another relevant Docker vs Virtual Machine difference is about portability: VMs are isolated from their OS, and so they are not ported across multiple platforms without incurring compatibility issues. At the development level, if an application is to be tested on different platforms, then Docker containers must be considered. Docker container packages are self-contained and can run applications in any environment, and since they don’t need a guest OS, they can be easily ported across different platforms. Docker containers can be easily deployed in servers since containers being lightweight can be started and stopped in very less time compared to virtual machines.
+
+PerformanceThe last main Docker vs VM difference refers to performance: Virtual Machines are more resource-intensive than Docker containers as the virtual machines need to load the entire OS to start. The lightweight architecture of Docker containers is less resource-intensive than virtual machines. In the case of a virtual machine, resources like CPU, memory, and I/O may not be allocated permanently to containers — unlike in the case of a Docker container, where the resource usage works with the load or traffic. Scaling up and duplicating a Docker container is simple and easy as compared to a virtual machine because there is no need to install an operating system in them.Apart from the major differences between Docker and VMs, some other ones are summarized below: 
+ 	Docker                                                                                                     	Virtual Machines (VMs)
+Boot-Time	Boots in a few seconds.	                                                                            It takes a few minutes for VMs to boot.
+Runs on	Dockers make use of the execution engine.                                                            	VMs make use of the hypervisor.
+Memory Efficiency	No space is needed to virtualize, hence less memory.                                       	Requires entire OS to be loaded before starting the surface, so less efficient. 
+Isolation	Prone to adversities as no provisions for isolation systems                                        	Interference possibility is minimum because of the efficient isolation mechanism.
+Deployment	Deploying is easy as only a single image, containerized can be used across all platforms.         	Deployment is comparatively lengthy as separate instances are responsible for execution.
+Usage	Docker has a complex usage mechanism consisting of both third party and docker managed tools.           	Tools are easy to use and simpler to work with. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
