@@ -1,6 +1,6 @@
 # Cloud-Computing
 
- Cloud computing is the on-demand delivery of IT resources over the Internet with pay-as-you-go pricing. Instead of buying, owning, and maintaining physical data centers and servers, you can access technology services, such as computing power, storage, and databases, on an as-needed basis from a cloud provider.
+- Cloud computing is the on-demand delivery of IT resources over the Internet with pay-as-you-go pricing. Instead of buying, owning, and maintaining physical data centers and servers, you can access technology services, such as computing power, storage, and databases, on an as-needed basis from a cloud provider.
 
  ![1](https://github.com/rahulbansal29/Cloud-Computing/assets/145260475/f54598b2-1241-49f4-ad0f-ca1a6e2069c2)
 
@@ -72,57 +72,57 @@ Gartner Magic Quadrant reports, the Enterprise Backup and Recovery version is a 
 ## Cloud Service Models
 1. IaaS( Infrastructure as a Service)
 
-IaaS is also known as Hardware as a Service (HaaS). It is a computing infrastructure managed over the internet. The main advantage of using IaaS is that it helps users to avoid the cost and complexity of purchasing and managing the physical servers.
+- IaaS is also known as Hardware as a Service (HaaS). It is a computing infrastructure managed over the internet. The main advantage of using IaaS is that it helps users to avoid the cost and complexity of purchasing and managing the physical servers.
 
 Characteristics of IaaS
 
-Resources are available as a service
+- Resources are available as a service
 
-Services are highly scalable
+- Services are highly scalable
 
-Dynamic and flexible
+- Dynamic and flexible
 
-GUI and API-based access
+- GUI and API-based access
 
-Automated administrative tasks
+- Automated administrative tasks
 
-Example: DigitalOcean, Linode, Amazon Web Services (AWS), Microsoft Azure, Google Compute Engine (GCE), Rackspace, and Cisco Metacloud.
+- Example: DigitalOcean, Linode, Amazon Web Services (AWS), Microsoft Azure, Google Compute Engine (GCE), Rackspace, and Cisco Metacloud.
 
 
 2. PaaS (Platform as a Service) 
- PaaS cloud computing platform is created for the programmer to develop, test, run, and manage the applications.
+ - PaaS cloud computing platform is created for the programmer to develop, test, run, and manage the applications.
 
 Characteristics of PaaS
 
-Accessible to various users via the same development application.
+- Accessible to various users via the same development application.
 
-Integrates with web services and databases.
+- Integrates with web services and databases.
 
-Builds on virtualization technology, so resources can easily be scaled up or down as per the organization's need.
+- Builds on virtualization technology, so resources can easily be scaled up or down as per the organization's need.
 
-Support multiple languages and frameworks.
+- Support multiple languages and frameworks.
 
-Provides an ability to "Auto-scale".
+- Provides an ability to "Auto-scale".
 
-Example: AWS Elastic Beanstalk, Windows Azure, Heroku, Force.com, Google App Engine, Apache Stratos, Magento Commerce Cloud, and OpenShift.
+- Example: AWS Elastic Beanstalk, Windows Azure, Heroku, Force.com, Google App Engine, Apache Stratos, Magento Commerce Cloud, and OpenShift.
 
 3. (SaaS) Software as a Service 
     SaaS is also known as "on-demand software". It is a software in which the applications are hosted by a cloud service provider. Users can access these applications with the help of internet connection and 
     web browser.
 
-Characteristics of SaaS
+### Characteristics of SaaS
 
-Managed from a central location
+- Managed from a central location
 
-Hosted on a remote server
+- Hosted on a remote server
 
-Accessible over the internet
+- Accessible over the internet
 
-Users are not responsible for hardware and software updates. Updates are applied automatically.
+- Users are not responsible for hardware and software updates. Updates are applied automatically.
 
-The services are purchased on the pay-as-per-use basis
+- The services are purchased on the pay-as-per-use basis
 
-Example: BigCommerce, Google Apps, Salesforce, Dropbox, ZenDesk, Cisco WebEx, ZenDesk, Slack, and GoToMeeting.
+- Example: BigCommerce, Google Apps, Salesforce, Dropbox, ZenDesk, Cisco WebEx, ZenDesk, Slack, and GoToMeeting.
 
 ![image](https://github.com/rahulbansal29/Cloud-Computing/assets/145260475/987aa19f-e5d8-49e5-9fd0-dddb5426c2af)
 
@@ -131,9 +131,9 @@ Example: BigCommerce, Google Apps, Salesforce, Dropbox, ZenDesk, Cisco WebEx, Ze
 ![image](https://github.com/rahulbansal29/Cloud-Computing/assets/145260475/e8463619-954c-4377-818d-5e038673d07b)
 
 
-Amazon Simple Storage Service (Amazon S3) is an object storage service offering industry-leading scalability, data availability, security, and performance. S3 is built to store and retrieve any amount of data from anywhere. Customers of all sizes and industries can store and protect any amount of data for virtually any use case, such as data lakes, cloud-native applications, and mobile applications.
+- Amazon Simple Storage Service (Amazon S3) is an object storage service offering industry-leading scalability, data availability, security, and performance. S3 is built to store and retrieve any amount of data from anywhere. Customers of all sizes and industries can store and protect any amount of data for virtually any use case, such as data lakes, cloud-native applications, and mobile applications.
 
-Data is stored as objects within resources called “buckets”, and a single object can be up to 5 terabytes in size. Objects can be accessed through S3 Access Points or directly through the bucket hostname. With cost-effective storage classes and easy-to-use management features, you can optimize costs, organize data, and configure fine-tuned access controls to meet specific business, organizational, and compliance requirements.
+- Data is stored as objects within resources called “buckets”, and a single object can be up to 5 terabytes in size. Objects can be accessed through S3 Access Points or directly through the bucket hostname. With cost-effective storage classes and easy-to-use management features, you can optimize costs, organize data, and configure fine-tuned access controls to meet specific business, organizational, and compliance requirements.
 
 ## Features OF S3
 Data lakes
@@ -154,7 +154,9 @@ Enterprise applications
 
 ## EC2
 
-Amazon Elastic Compute Cloud (Amazon EC2) offers the broadest and deepest compute platform, with over 750 instances and choice of the latest processor, storage, networking, operating system, and purchase model to help you best match the needs of your workload. We are the first major cloud provider that supports Intel, AMD, and Arm processors, the only cloud with on-demand EC2 Mac instances, and the only cloud with 400 Gbps Ethernet networking. We offer the best price performance for machine learning training, as well as the lowest cost per inference instances in the cloud. More SAP, high performance computing (HPC), ML, and Windows workloads run on AWS than any other cloud.
+- Amazon Elastic Compute Cloud (Amazon EC2) offers the broadest and deepest compute platform, with over 750 instances and choice of the latest processor, storage, networking, operating system, and purchase model to help you best match 
+  the needs of your workload. We are the first major cloud provider that supports Intel, AMD, and Arm processors, the only cloud with on-demand EC2 Mac instances, and the only cloud with 400 Gbps Ethernet networking. We offer the best 
+  price performance for machine learning training, as well as the lowest cost per inference instances in the cloud. More SAP, high performance computing (HPC), ML, and Windows workloads run on AWS than any other cloud.
 
 ### Use Cases
 
@@ -181,7 +183,7 @@ Amazon Elastic Compute Cloud (Amazon EC2) offers the broadest and deepest comput
 
   ## ELB(Elastic Load Balancer) 
   
-  Elastic Load Balancing automatically distributes your incoming traffic across multiple targets, such as EC2 instances, containers, and IP addresses, in one or more Availability Zones. It monitors the health 
+ - Elastic Load Balancing automatically distributes your incoming traffic across multiple targets, such as EC2 instances, containers, and IP addresses, in one or more Availability Zones. It monitors the health 
   of its registered targets, and routes traffic only to the healthy targets. Elastic Load Balancing scales your load balancer capacity automatically in response to changes in incoming traffic.
 
   ## Types Of Load Balancer
@@ -192,16 +194,20 @@ Amazon Elastic Compute Cloud (Amazon EC2) offers the broadest and deepest comput
 
 ## Autoscaling
 
-AWS Auto Scaling monitors your applications and automatically adjusts capacity to maintain steady, predictable performance at the lowest possible cost. Using AWS Auto Scaling, it’s easy to setup application scaling for multiple resources across multiple services in minutes. The service provides a simple, powerful user interface that lets you build scaling plans for resources including Amazon EC2 instances and Spot Fleets, Amazon ECS tasks, Amazon DynamoDB tables and indexes, and Amazon Aurora Replicas. AWS Auto Scaling makes scaling simple with recommendations that allow you to optimize performance, costs, or balance between them. If you’re already using Amazon EC2 Auto Scaling to dynamically scale your Amazon EC2 instances, you can now combine it with AWS Auto Scaling to scale additional resources for other AWS services. With AWS Auto Scaling, your applications always have the right resources at the right time.
+- AWS Auto Scaling monitors your applications and automatically adjusts capacity to maintain steady, predictable performance at the lowest possible cost. Using AWS Auto Scaling, it’s easy to setup application scaling for multiple 
+ resources across multiple services in minutes. The service provides a simple, powerful user interface that lets you build scaling plans for resources including Amazon EC2 instances and Spot Fleets, Amazon ECS tasks, Amazon DynamoDB 
+ tables and indexes, and Amazon Aurora Replicas. AWS Auto Scaling makes scaling simple with recommendations that allow you to optimize performance, costs, or balance between them. If you’re already using Amazon EC2 Auto Scaling to 
+ dynamically scale your Amazon EC2 instances, you can now combine it with AWS Auto Scaling to scale additional resources for other AWS services. With AWS Auto Scaling, your applications always have the right resources at the right 
+ time.
 
 ![image](https://github.com/rahulbansal29/Cloud-Computing/assets/145260475/4b120d72-057c-43c5-875d-14a74f3f576d)
 
  
 # Route 53
 
-Amazon Route 53 is a highly available and scalable Domain Name System (DNS) web service. You can use Route 53 to perform three main functions in any combination: domain registration, DNS routing, and health checking.
+- Amazon Route 53 is a highly available and scalable Domain Name System (DNS) web service. You can use Route 53 to perform three main functions in any combination: domain registration, DNS routing, and health checking.
 
-If you choose to use Route 53 for all three functions, be sure to follow the order below:
+ If you choose to use Route 53 for all three functions, be sure to follow the order below:
 
 1. Register domain names
 Your website needs a name, such as example.com. Route 53 lets you register a name for your website or web application, known as a domain name.
@@ -349,8 +355,9 @@ Backup and restore is a suitable approach for mitigating against data loss or co
 
 # Docker Containers
 
-Docker is a software platform that allows you to build, test, and deploy applications quickly. Docker packages software into standardized units called containers that have everything the software needs to run including libraries, system tools, code, and runtime. Using Docker, you can quickly deploy and scale applications into any environment and know your code will run.
-Running Docker on AWS provides developers and admins a highly reliable, low-cost way to build, ship, and run distributed applications at any scale.
+- Docker is a software platform that allows you to build, test, and deploy applications quickly. Docker packages software into standardized units called containers that have everything the software needs to run including libraries, 
+ system tools, code, and runtime. Using Docker, you can quickly deploy and scale applications into any environment and know your code will run.
+ Running Docker on AWS provides developers and admins a highly reliable, low-cost way to build, ship, and run distributed applications at any scale.
 
 ![image](https://github.com/rahulbansal29/Cloud-Computing/assets/145260475/8fbbe94d-c647-40a5-a22a-d002c66cd06f)
 
@@ -396,6 +403,19 @@ The last main Docker vs VM difference refers to performance: Virtual Machines ar
 - There is no charge to use Elastic Beanstalk to deploy your applications, you are only charged for the resources that are created to support your application.
 
 - If you are planning to deploy Elastic Beanstalk, you can use Hava to visualise your architecture.
+
+- Amazon Web Services provides a cloud deployment service named Elastic Beanstalk. With the help of this service, you can easily set the deployment of your application to the AWS cloud; you just need to upload the files, and it’s 
+ done. There are some useful operations that AWS Elastic Beanstalk provides that include provisioning, load balancing, health monitoring of the deployed application, and autoscaling of the application. The applications that are 
+ developed with Python, Java, PHP, Node.js, and Docker can easily be deployed on commonly used servers such as Apache, Nginx, and Passenger. The code that you have created in any language from the list above can easily be uploaded on 
+ the AWS Elastic Beanstalk service so that it will handle all the operations itself. However, to use Amazon Web Services, you need to pay money, but it doesn’t mean that you need to pay an extra charge for using Elastic Beanstalk. 
+
+- There are no additional charges for using AWS Elastic Beanstalk, and you only need to pay for AWS resources that are needed to store and run the application that you created. 
+
+- To better understand Elastic Beanstalk, you need to know EC2, which is an acronym used for Amazon Compute Cloud. EC2 is just like a virtual machine where you can use the same instances as a virtual machine. 
+
+- AWS Elastic Beanstalk is easy to use as it reduces the complexity without limiting its features or the control over its services. 
+
+
 
   ![image](https://github.com/rahulbansal29/Cloud-Computing/assets/145260475/da8e8d0e-68c5-49df-9ad7-d263266437b0)
 
