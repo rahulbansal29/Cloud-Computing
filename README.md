@@ -419,6 +419,22 @@ The last main Docker vs VM difference refers to performance: Virtual Machines ar
 
   ![image](https://github.com/rahulbansal29/Cloud-Computing/assets/145260475/da8e8d0e-68c5-49df-9ad7-d263266437b0)
 
+  ## AWS LAMBDA
+  
+- AWS Lambda is an Amazon serverless computing system that runs code and automatically manages the underlying computing resources like (EC2). It is an event-driven computing service. It lets a person automatically run code in response 
+ to many types of events, such as HTTP requests from the Amazon API gateway, table updates in Amazon DynamoDB, and state transitions. It also enables the person to extend to other AWS services with custom logic and even creates its 
+ own back-end services. For example, just write the code and then upload it as a .zip file or any container image. The service works by running code on high-availability computer infrastructure. It then performs all the administrative 
+ duties of that compute resource such as:
+
+AWS (Amazon Web Services) Lambdaproviding maintenance on the server and operating system, auto-scaling and managing the person’s capacity provisions, handling security patch deployment lambda extensions code, monitoring, logging, and concurrency function blueprints. AWS lambda is very helpful when you know how to write code but you don’t know how to provision the underlying infrastructure in AWS. AWS lambda will scale up the applications rapidly when there is sudden incoming traffic and scale down to zero when the incoming traffic is reduced.
+
+![image](https://github.com/rahulbansal29/Cloud-Computing/assets/145260475/e1515e9c-8e64-4ff5-9c22-317b8f39c4dd)
+
+
+
+
+
+
 
 
 
