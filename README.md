@@ -430,6 +430,27 @@ AWS (Amazon Web Services) Lambdaproviding maintenance on the server and operatin
 
 ![image](https://github.com/rahulbansal29/Cloud-Computing/assets/145260475/e1515e9c-8e64-4ff5-9c22-317b8f39c4dd)
 
+## S3
+
+- Amazon Simple Storage Service (Amazon S3) is an object storage service that offers industry-leading scalability, data availability, security, and performance. Customers of all sizes and industries can use Amazon S3 to store and 
+ protect any amount of data for a range of use cases, such as data lakes, websites, mobile applications, backup and restore, archive, enterprise applications, IoT devices, and big data analytics. Amazon S3 provides management features 
+ so that you can optimize, organize, and configure access to your data to meet your specific business, organizational, and compliance requirements.
+
+### Use Cases
+Build a Data LakeRun big data analytics, artificial intelligence (AI), machine learning (ML), and high-performance computing (HPC) applications to unlock data insights.
+Run Cloud-Native Applications
+Build fast, powerful mobile and web-based cloud-native apps that scale automatically in a highly available configuration.
+Backup and Restore Critical Data
+Meet Recovery Time Objectives (RTO), Recovery Point Objectives (RPO), and compliance requirements with S3’s robust replication features.
+Archive Data at the Lowest Cost
+Move data archives to the Amazon S3 Glacier storage classes to lower costs, eliminate operational complexities, and gain new insights.
+
+
+![image](https://github.com/rahulbansal29/Cloud-Computing/assets/145260475/1cd23187-4731-4506-9aab-042e05c28955)
+
+
+
+
 
 
 
