@@ -387,6 +387,21 @@ The last main Docker vs VM difference refers to performance: Virtual Machines ar
 
 ![image](https://github.com/rahulbansal29/Cloud-Computing/assets/145260475/997aa1f3-cd43-4d4d-8a90-3b6a736d0f7f)
 
+# AWS ELASTIC BEANSTALK
+
+- Elastic Beanstalk is a platform within AWS that is used for deploying and scaling web applications. In simple terms this platform as a service (PaaS) takes your application code and deploys it while provisioning the supporting architecture and compute resources required for your code to run. Elastic Beanstalk also fully manages the patching and security updates for those provisioned resources. 
+
+- There are many PaaS solutions in the cloud computing space including Redhat Open Shift, Google App Engine, Scalingo, Python Anywhere, Azure App Service, however AWS Elastic Beanstalk remains one of the leading PaaS choices among app developers.
+
+- There is no charge to use Elastic Beanstalk to deploy your applications, you are only charged for the resources that are created to support your application.
+
+- If you are planning to deploy Elastic Beanstalk, you can use Hava to visualise your architecture.
+
+  ![image](https://github.com/rahulbansal29/Cloud-Computing/assets/145260475/da8e8d0e-68c5-49df-9ad7-d263266437b0)
+
+
+
+
 
 
 
